@@ -1,0 +1,79 @@
+/* src/components/Nav.css */
+
+nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 14px;
+}
+
+.menu-item {
+    position: relative;
+    padding: 5px 12px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold; /* Make the menu items bold */
+}
+
+.menu-item:hover {
+    background-color: #111;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    font-size: 12px;
+    text-align: left; /* Left align the text */
+}
+
+.menu-item:hover > .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.submenu li:hover {
+    background-color: #111;
+}
+
+.submenu-item {
+    position: relative;
+}
+
+.submenu-item:hover > .submenu {
+    display: block;
+}
+
+.submenu-item .submenu {
+    left: 100%;
+    top: 0;
+}
+
+.submenu hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    margin-left: 11px;
+    margin-right: 11px;
+}

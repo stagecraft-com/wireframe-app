@@ -1,0 +1,18 @@
+/* src/components/Logo.css */
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -40px; /* Offset for the fixed navbar height */
+    padding-top: 40px; /* Add padding to avoid logo being hidden under the navbar */
+    box-sizing: border-box;
+}
+
+#logo {
+    max-width: 33.33vw; /* 2/3rds of the viewport width */
+    max-height: 33.33vh; /* 2/3rds of the viewport height */
+    opacity: 0;
+    transition: opacity 2s ease-in-out; /* Updated fade-in time */
+}
