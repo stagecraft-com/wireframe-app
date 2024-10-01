@@ -10,8 +10,8 @@ const Nav = ({ onAboutClick, onFullScreenToggle }) => {
                 <ul className="submenu">
                     <li className="submenu-item">New
                         <ul className="submenu">
-                            <li id="newEnsemble">Ensemble</li>
-                            <li id="newThing">Thing</li>
+                            <li id="newEnsemble">Project</li>
+                            <li id="newThing">Clone Current</li>
                         </ul>
                     </li>
                     <li>Settings</li>
@@ -180,12 +180,11 @@ const Nav = ({ onAboutClick, onFullScreenToggle }) => {
                 <ul className="submenu">
                     <li>Spaces</li>
                     <li>Pages</li>
-                    <li>Flows</li>
+                    <li>Reports</li>
                     <hr />
                     <li>Departments</li>
                     <li>Layers</li>
                     <li>Categories</li>
-                    <li>Paperwork</li>
                     <li>Planes</li>
                     <li>Origins</li>
                     <li>Bookmarks</li>
