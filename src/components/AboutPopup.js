@@ -34,7 +34,7 @@ const AboutPopup = ({ isVisible, onClose }) => {
         </div>
         <div className={`tab-content ${activeTab === 'general' ? 'active' : 'hidden'}`} id="general">
           <p>Stagecraft.com</p>
-          <p>version: 0.001</p>
+          <p>version: 00.00.01</p>
           <p>date: 5/15/2024</p>
         </div>
         <div className={`tab-content ${activeTab === 'credits' ? 'active' : 'hidden'}`} id="credits">
